@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+header>div{
+    width: 87px;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header>div>img{
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    font-weight: 700;
+    color: white;
+}
+
+ul>li>a {
+    color: white;
+    text-decoration:  none;
+}
+ul>li>a.active{
+    text-decoration: underline #FFED00 2px;
+}
+.FWP{
+    width: 95%;
+    margin: 10px auto;
+}
+.FWP>h1{
+    margin: 20px 0;
+}
+.flexbox{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.flexbox>.container>div{
+    height: 294px;
+    width: 190px;
+    margin: 10px 0;
+    position: relative;
+}
+.flexbox>.container>div>div>p{
+    writing-mode: vertical-lr;
+    text-align: end;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-weight: 900;
+    z-index: 3;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.6);
+}
+.BF{
+    background-image: url(asset/logan-weaver-lgnwvr-U-Ui-eZvbrc-unsplash\ 1.png);
+    background-size: cover;
+    
+}
+.MTA{
+    background-image: url(asset/Zumba.png);
+    background-size: cover;
+}
+.MTA>.MTAA{
+    background-color: transparent;
+}
+.WL{
+    background-image: url(asset/Cardio.png);
+    background-size: cover;
+}
+.container>button{
+    height: 34px;
+    width: 190px;
+    margin: 10px 0;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: inherit;
+    color: white;
+    font-weight: 900;
+    border: 1px solid #FFED00;
+    padding: 5px 0;
+}
+.container>.bmta{
+    background-color: #FFED00;
+    color: black;
+}
+.BFF{
+    width: 95%;
+    margin: 30px auto;
+}
+.nf>h1{
+    margin: 10px 0;
+}
+.nf>p{
+    margin: 10px 0;
+    width: 80%;
+}
+.nf>h3{
+    margin: 20px 0;
+    width: max-content;
+    border: 1px solid #FFED00;
+    padding: 10px;
+    border-radius: 19px;
+}
+.corosol{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5mins;
+    position: relative;
+    height: 400px;
+    padding: 20px;
+}
+.corosol>button{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    position: absolute;
+    cursor: pointer;
+}
+.leftarrow{
+    top: 50%;
+    left: -2%;
+}
+.rightarrow{
+    top: 50%;
+    right: -2%;
+}
+.con{
+    flex-basis: 30%;
+    height: 100%;
+    border-radius: 36px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.con>div{
+    background-color: #4A4A4A;
+    padding: 10px;
+    border-radius: 16px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px;
+}
+.con>div>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+.con>div>div>span{
+    background-color: #FFED00;
+    color: black;
+    border-radius: 14px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+}
+.con>div>span:nth-child(odd){
+    
+    margin-right: 35px;
+}
+.con>div>p{
+    margin-top: 6px;
+}
+.con1{
+    background-image: url(asset/Maskgroup1.png);
+    background-size: cover;
+}
+.con2{
+    background-image: url(asset/Maskgroup2.png);
+    background-size: cover;
+}
+.con3{
+    background-image: url(asset/Maskgroup3.png);
+    background-size: cover;
+}
+.contactus{
+    width: 95%;
+    margin: 20px auto;
+    font-weight: 500;
+}
+
+.contactus>h1{
+    color: #FFED00;
+    background-color: black;
+    margin: 10px 0;
+    padding: 6px 0;
+}
+.contactus>p{
+    color: white;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.contactus>div{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+.contactus>div>fieldset{
+    border: none;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex-basis: 46%;
+}
+.contactus>div>fieldset>input{
+    height: 60px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #FFED00;
+    background-color: inherit;
+    border: 1px solid #FFED00;
+}
+.contactus>div>fieldset>textarea{
+    height: 140px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: white;
+    background-color: inherit;
+    border: 1px solid #FFED00;
+
+}
